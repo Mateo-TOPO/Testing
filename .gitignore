@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+public/index.html
+
+# Cloudflare Wrangler local dev state
+.wrangler/
+
+# Environment variables (local secrets – .env.example darf committed werden)
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
